@@ -28,5 +28,6 @@ public class CarController {
         List<Car> carList = carService.getHowManyCars(count);
         model.addAttribute("cars", carList);
         return "cars";
+
     }
 }
